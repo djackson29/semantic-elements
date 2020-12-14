@@ -3,26 +3,20 @@
   <head>
     <meta charset="utf-8">
     <title>DJ's Semantic Website</title>
-    <style>
-      aside {
-        width:30%;}
-      nav {
-        display: block;}
-    </style>
   </head>
   <body>
-    <nav>
-      <ul>
-        <li>Interests</li>
-        <li>About Me</li>
-      </ul>
-    </nav>
     <header>
       <h1>Welcome to my Website!</h1>
       <p>Continue on to learn more about me and my interests.</p>
     </header>
+    <nav>
+      <ul>
+        <li><a href="#interests">Interests</a></li>
+        <li><a href="#about-me">About Me</a></li>
+      </ul>
+    </nav>
     <section>
-      <header>
+      <header><a id="interests"></a>
         <h2>My Interests</h2>
       </header>
         <article>
@@ -50,13 +44,25 @@
         </article>
     </section>
     <section>
-      <header>
+      <header><a id="about-me"></a>
         <h2>More About Me</h2>
       </header>
       <details>
         <summary>I enjoy board games</summary>
-        <p>Some of my favorites are...</p>
+        <p>Some of my favorites are Settlers of Catan, Power Grid, Puerto Rico, and King of Tokyo.</p>
       </details>
+      <details>
+        <summary>I enjoy puzzles</summary>
+        <p>Must be at least 1,000 pieces.</p>
+      </details>
+    </section>
+    <section>
+      <header>
+        <h2>Section Heading</h2>
+      </header>
+      <p></p>
+      <p></p>
+      <p></p>
     </section>
     <footer>
       <p>Footer of DJ's semantic website.</p>
